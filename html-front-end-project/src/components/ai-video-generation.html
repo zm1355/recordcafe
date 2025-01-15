@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Video Generation</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="ai-video-generation">
+        <h1>AI Video Generation</h1>
+        <form id="videoGenerationForm">
+            <label for="videoTitle">Video Title:</label>
+            <input type="text" id="videoTitle" name="videoTitle" required>
+
+            <label for="videoLength">Video Length (seconds):</label>
+            <input type="number" id="videoLength" name="videoLength" required>
+
+            <label for="videoQuality">Video Quality:</label>
+            <select id="videoQuality" name="videoQuality">
+                <option value="720p">720p</option>
+                <option value="1080p">1080p</option>
+                <option value="4k">4K</option>
+            </select>
+
+            <button type="submit">Generate Video</button>
+        </form>
+    </div>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
