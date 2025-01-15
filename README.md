@@ -1,2 +1,1 @@
-# recordcafe
-klop 
+这是一个开源的视频录制项目
