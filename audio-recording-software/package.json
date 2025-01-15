@@ -1,0 +1,29 @@
+{
+  "name": "audio-recording-software",
+  "version": "1.0.0",
+  "description": "A simple audio recording software project.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "@types/express": "^4.17.13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/audio-recording-software.git"
+  },
+  "keywords": [
+    "audio",
+    "recording",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
